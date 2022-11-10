@@ -10,7 +10,7 @@ namespace calculate {
 
     void Method(const FunctionCallbackInfo<Value>&args) {
         Isolate* isolate = args.GetIsolate();
-        int i;
+        long i;
         double x = 100.41424241, y = 200.141;
 
         for(i = 0; i < 10000000000; i++) {
